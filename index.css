@@ -2,6 +2,7 @@ body {
   width: 100vw;
   height: 100vh;
   grid-template-rows: 10% 90%;
+  color: #002854;
 }
 
 .header {
@@ -13,10 +14,10 @@ body {
 }
 
 .left {
-  grid-template-rows: 75% 23%;
+  grid-template-rows: 80% 20%;
 }
 .middle {
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1.2fr 1fr;
 }
 
 .right {
@@ -27,4 +28,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.inter {
+  font-family: inter;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #002854;
+  font-family: inter;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  letter-spacing: -1px;
 }
