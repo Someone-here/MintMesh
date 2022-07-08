@@ -1,0 +1,30 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  grid-template-rows: 10% 90%;
+}
+
+.header {
+  grid-template-columns: 1fr 3fr 1.5fr;
+}
+
+.main {
+  grid-template-columns: 1fr 3fr 1.5fr;
+}
+
+.left {
+  grid-template-rows: 75% 23%;
+}
+.middle {
+  grid-template-rows: 1fr 1fr;
+}
+
+.right {
+  grid-template-rows: 1fr 1fr;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
